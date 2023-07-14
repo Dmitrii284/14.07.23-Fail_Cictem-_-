@@ -1,5 +1,7 @@
 #pragma once
 
+// Графические игры WXVigetc  Графический SFML  все это графические редакторы.
+
 #ifndef  _HEADER_H_
 #define _HEADER_H_
 
