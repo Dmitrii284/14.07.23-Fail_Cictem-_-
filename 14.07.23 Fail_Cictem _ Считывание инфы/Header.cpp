@@ -1,11 +1,11 @@
-#include "Header.h"
+ï»¿#include "Header.h"
 
 bool print_file(std::string file_path)
 {
 	std::ifstream in(file_path);
 	if (in.is_open())
 	{
-		std::cout << "Ôàéë îòêðûò äëÿ ñ÷èòûâàíèÿ\n";
+		std::cout << "Ð¤Ð°Ð¹Ð» Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ Ð´Ð»Ñ ÑÑ‡Ð¸Ñ‚Ñ‹Ð²Ð°Ð½Ð¸Ñ\n";
 		std::string str;
 		/*while (std::getline(in, str))
 			file_path += str + '\n';*/
@@ -13,7 +13,7 @@ bool print_file(std::string file_path)
 		return true;
 	}
 	else
-		std::cout << "Îøèáêà îòêðûòèÿ ôàéëà!\n";
+		std::cout << "ÐžÑˆÐ¸Ð±ÐºÐ° Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¸Ñ Ñ„Ð°Ð¹Ð»Ð°!\n";
 			in.close();
 		
 	return false;
